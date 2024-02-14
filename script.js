@@ -1,7 +1,14 @@
 // Define funtion to get calculated Age
 function getDOB() {
 
-	// Getting input from html input element
+	
+	  var result = confirm("Are you sure you want to proceed?");
+	  if (result) {
+	    alert("You clicked OK!");
+	
+	} else {
+		  alert("You clicked Cancel!");  
+	}
 	let data =
 		document.getElementById("inputDob").value;
 
